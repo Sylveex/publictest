@@ -1,12 +1,14 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "app": {
     "name": "publictest",
     "debug": false,
-    "locale": "en-GB"
+    "locale": "en-GB",
+    "maxStringLength": 100
   },
   "features": {
     "notifications": true,
-    "autoUpdate": false
+    "autoUpdate": false,
+    "truncation": true
   }
 }

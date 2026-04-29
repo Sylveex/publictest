@@ -25,4 +25,17 @@ function parseDate(isoString) {
   return date.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
-module.exports = { capitalize, parseDate };
+
+
+/**
+ * Truncates a string to a given length, appending ellipsis if needed.
+ * @param {string} str
+ * @param {number} maxLength
+ * @returns {string}
+ */
+function truncate(str, maxLength = 100) {
+  if (!str || str.length <= maxLength) return str || '';
+  return str.slice(0, maxLength - 3) + '...';
+}
+
+module.exports = { capitalize, parseDate, truncate };
