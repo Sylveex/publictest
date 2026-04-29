@@ -38,4 +38,16 @@ function truncate(str, maxLength = 100) {
   return str.slice(0, maxLength - 3) + '...';
 }
 
-module.exports = { capitalize, parseDate, truncate };
+// v1.6.0: add formatCurrency helper
+
+/**
+ * Formats a number as a currency string.
+ * @param {number} amount
+ * @param {string} currency
+ * @returns {string}
+ */
+function formatCurrency(amount, currency = 'EUR') {
+  return new Intl.NumberFormat('en-GB', { style: 'currency', currency }).format(amount);
+}
+
+module.exports = { capitalize, parseDate, truncate, formatCurrency };
