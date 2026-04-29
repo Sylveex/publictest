@@ -30,3 +30,6 @@
 ## v2.0.0 - 2026-04-29
 - feat: add throttle() utility
 - breaking: rename clamp() to clampValue()
+
+## v2.1.0 - 2026-04-29
+- feat: add memoize() utility
