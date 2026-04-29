@@ -26,3 +26,7 @@
 
 ## v1.9.0 - 2026-04-29
 - feat: add debounce() utility
+
+## v2.0.0 - 2026-04-29
+- feat: add throttle() utility
+- breaking: rename clamp() to clampValue()
