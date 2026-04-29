@@ -18,3 +18,8 @@
 ## [v1.0.0] - 2026-04-29
 ### Added
 - Initial release
+
+
+## [v1.8.0] - 2026-04-29
+### Added
+- Added `isValidEmail()` helper function
