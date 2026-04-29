@@ -1,0 +1,12 @@
+{
+  "version": "1.4.0",
+  "app": {
+    "name": "publictest",
+    "debug": false,
+    "locale": "en-GB"
+  },
+  "features": {
+    "notifications": true,
+    "autoUpdate": false
+  }
+}
