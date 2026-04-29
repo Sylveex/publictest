@@ -24,3 +24,6 @@ Edit `config.json` to adjust application settings.
 ## Changelog
 
 See [CHANGELOG.md](./CHANGELOG.md) for release history.
+
+## License
+MIT
