@@ -23,3 +23,6 @@
 ## [v1.8.0] - 2026-04-29
 ### Added
 - Added `isValidEmail()` helper function
+
+## v1.9.0 - 2026-04-29
+- feat: add debounce() utility
